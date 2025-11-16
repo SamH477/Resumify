@@ -1,19 +1,19 @@
-<template>
-  <div id="app">
-    <h1>Resumify</h1>
-    <!-- Main resume builder component -->
-    <ResumeBuilder />
-  </div>
-</template>
-
+<!-- frontend/src/App.vue -->
 <script setup lang="ts">
 import ResumeBuilder from './components/ResumeBuilder.vue'
 </script>
 
-<style>
+<template>
+  <div id="app">
+    <h1>Resumify</h1>
+    <ResumeBuilder />
+  </div>
+</template>
+
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
-  margin: 2rem;
+  margin-top: 2rem;
 }
 </style>
